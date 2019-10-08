@@ -4351,9 +4351,6 @@ gatsby-page-utils@^0.0.24:
     micromatch "^3.1.10"
     slash "^3.0.0"
 
-"gatsby-plugin-folder-metadata@file:..":
-  version "0.0.0-rc.1"
-
 gatsby-plugin-page-creator@^2.1.24:
   version "2.1.24"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-page-creator/-/gatsby-plugin-page-creator-2.1.24.tgz#394ff902a6b5a94e5d19fc9bf4dcbe9a014537fa"
