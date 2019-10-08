@@ -1,0 +1,22 @@
+{
+  "name": "folder-metadata-test",
+  "private": true,
+  "description": "This is a test project to confirm that internal data structures are as expected at the end of the build.",
+  "version": "0.0.0",
+  "author": "Carl Vitullo <carl.vitullo@gmail.com>",
+  "dependencies": {
+    "gatsby": "^2.15.29",
+    "gatsby-plugin-folder-metadata": "file:..",
+    "gatsby-source-filesystem": "^2.1.29",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "start": "gatsby develop"
+  }
+}
