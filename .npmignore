@@ -1,2 +1,4 @@
 example
 .gitignore
+prettier.config.js
+*.tgz

@@ -71,3 +71,6 @@ public
 # Lingui build/production files
 src/locale/_build/
 src/locale/**/*.js
+
+# Test package folders
+package
