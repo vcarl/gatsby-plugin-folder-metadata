@@ -1,0 +1,68 @@
+{
+  "data": {
+    "allFile": {
+      "edges": [
+        {
+          "node": {
+            "base": "index.md",
+            "relativeDirectory": "child2",
+            "fields": {
+              "metadata": {
+                "parent": null,
+                "data": null
+              }
+            }
+          }
+        },
+        {
+          "node": {
+            "base": "index.md",
+            "relativeDirectory": "child1",
+            "fields": {
+              "metadata": {
+                "parent": null,
+                "data": null
+              }
+            }
+          }
+        },
+        {
+          "node": {
+            "base": "index.md",
+            "relativeDirectory": "child2/child2.1",
+            "fields": {
+              "metadata": {
+                "parent": {
+                  "data": null,
+                  "parent": null
+                },
+                "data": {
+                  "title": "A deeply nested folder with metadata only at the deepest level",
+                  "id": "child-only"
+                }
+              }
+            }
+          }
+        },
+        {
+          "node": {
+            "base": "metadata.json",
+            "relativeDirectory": "child2/child2.1",
+            "fields": {
+              "metadata": {
+                "parent": {
+                  "data": null,
+                  "parent": null
+                },
+                "data": {
+                  "title": "A deeply nested folder with metadata only at the deepest level",
+                  "id": "child-only"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

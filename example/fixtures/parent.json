@@ -1,0 +1,79 @@
+{
+  "data": {
+    "allFile": {
+      "edges": [
+        {
+          "node": {
+            "base": "metadata.json",
+            "relativeDirectory": "",
+            "fields": {
+              "metadata": {
+                "parent": null,
+                "data": {
+                  "title": "A root folder with metadata only at the top most level",
+                  "id": "parent-only"
+                }
+              }
+            }
+          }
+        },
+        {
+          "node": {
+            "base": "index.md",
+            "relativeDirectory": "child2",
+            "fields": {
+              "metadata": {
+                "parent": {
+                  "data": {
+                    "id": "parent-only",
+                    "title": "A root folder with metadata only at the top most level"
+                  },
+                  "parent": null
+                },
+                "data": null
+              }
+            }
+          }
+        },
+        {
+          "node": {
+            "base": "index.md",
+            "relativeDirectory": "child1",
+            "fields": {
+              "metadata": {
+                "parent": {
+                  "data": {
+                    "id": "parent-only",
+                    "title": "A root folder with metadata only at the top most level"
+                  },
+                  "parent": null
+                },
+                "data": null
+              }
+            }
+          }
+        },
+        {
+          "node": {
+            "base": "index.md",
+            "relativeDirectory": "child2/child2.1",
+            "fields": {
+              "metadata": {
+                "parent": {
+                  "data": null,
+                  "parent": {
+                    "data": {
+                      "id": "parent-only",
+                      "title": "A root folder with metadata only at the top most level"
+                    }
+                  }
+                },
+                "data": null
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

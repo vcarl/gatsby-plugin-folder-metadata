@@ -1,0 +1,159 @@
+{
+  "data": {
+    "allFile": {
+      "edges": [
+        {
+          "node": {
+            "base": "metadata.json",
+            "relativeDirectory": "",
+            "fields": {
+              "metadata": {
+                "parent": null,
+                "data": {
+                  "title": "A root folder with metadata in every child folder, recursively",
+                  "id": "complete-metadata"
+                }
+              }
+            }
+          }
+        },
+        {
+          "node": {
+            "base": "index.md",
+            "relativeDirectory": "child2",
+            "fields": {
+              "metadata": {
+                "parent": {
+                  "data": {
+                    "id": "complete-metadata",
+                    "title": "A root folder with metadata in every child folder, recursively"
+                  },
+                  "parent": null
+                },
+                "data": {
+                  "title": "Child two with complete metadata",
+                  "id": "child2"
+                }
+              }
+            }
+          }
+        },
+        {
+          "node": {
+            "base": "metadata.json",
+            "relativeDirectory": "child2",
+            "fields": {
+              "metadata": {
+                "parent": {
+                  "data": {
+                    "id": "complete-metadata",
+                    "title": "A root folder with metadata in every child folder, recursively"
+                  },
+                  "parent": null
+                },
+                "data": {
+                  "title": "Child two with complete metadata",
+                  "id": "child2"
+                }
+              }
+            }
+          }
+        },
+        {
+          "node": {
+            "base": "index.md",
+            "relativeDirectory": "child1",
+            "fields": {
+              "metadata": {
+                "parent": {
+                  "data": {
+                    "id": "complete-metadata",
+                    "title": "A root folder with metadata in every child folder, recursively"
+                  },
+                  "parent": null
+                },
+                "data": {
+                  "title": "Child one with complete metadata",
+                  "id": "child1"
+                }
+              }
+            }
+          }
+        },
+        {
+          "node": {
+            "base": "metadata.json",
+            "relativeDirectory": "child1",
+            "fields": {
+              "metadata": {
+                "parent": {
+                  "data": {
+                    "id": "complete-metadata",
+                    "title": "A root folder with metadata in every child folder, recursively"
+                  },
+                  "parent": null
+                },
+                "data": {
+                  "title": "Child one with complete metadata",
+                  "id": "child1"
+                }
+              }
+            }
+          }
+        },
+        {
+          "node": {
+            "base": "index.md",
+            "relativeDirectory": "child2/child2.1",
+            "fields": {
+              "metadata": {
+                "parent": {
+                  "data": {
+                    "id": "child2",
+                    "title": "Child two with complete metadata"
+                  },
+                  "parent": {
+                    "data": {
+                      "id": "complete-metadata",
+                      "title": "A root folder with metadata in every child folder, recursively"
+                    }
+                  }
+                },
+                "data": {
+                  "title": "Child one of child two with complete metadata",
+                  "id": "child2.1"
+                }
+              }
+            }
+          }
+        },
+        {
+          "node": {
+            "base": "metadata.json",
+            "relativeDirectory": "child2/child2.1",
+            "fields": {
+              "metadata": {
+                "parent": {
+                  "data": {
+                    "id": "child2",
+                    "title": "Child two with complete metadata"
+                  },
+                  "parent": {
+                    "data": {
+                      "id": "complete-metadata",
+                      "title": "A root folder with metadata in every child folder, recursively"
+                    }
+                  }
+                },
+                "data": {
+                  "title": "Child one of child two with complete metadata",
+                  "id": "child2.1"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
